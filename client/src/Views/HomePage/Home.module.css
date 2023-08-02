@@ -1,0 +1,59 @@
+.descrip {
+    display: flex;
+    justify-content: center;
+    gap: 42.5em;
+    color: white;
+    letter-spacing: 4px;
+    
+}
+
+.h2 {
+    padding-top: 13px;
+    margin: 0;
+    text-shadow: 2px 2px 2px rgb(172, 165, 108);
+    animation: salto 1s steps(2) infinite;   
+}
+
+.title {
+  color: white;
+  font-family: 'RetroGaming';
+  letter-spacing: 4px;
+  font-size: 50px;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #088,
+  0 0 82px #088,
+  0 0 92px #088,
+  0 0 102px #088,
+  0 0 151px #088;
+  margin: 0;
+  padding: 15px;
+  padding-top: 40px;
+}
+
+.title:hover {
+  color: rgba(17, 164, 233, 0.9);
+  font-family: 'RetroGaming';
+  letter-spacing: 4px;
+  font-size: 50px;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #088,
+  0 0 82px #088,
+  0 0 92px #088,
+  0 0 102px #088,
+  0 0 151px #088;
+  margin: 0;
+  padding: 15px;
+  padding-top: 40px;
+}
+
+.container {
+    animation-name: show;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}

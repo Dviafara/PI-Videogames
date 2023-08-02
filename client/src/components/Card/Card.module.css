@@ -1,0 +1,80 @@
+.containerCard{
+    text-align: center;
+    margin: 0;
+    
+}
+
+
+.image {
+    background-position: center;
+    background-size: cover;
+    height: 13em;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+}
+
+
+.name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 10px;
+    height: 3.5em;
+    width: 13em;
+    letter-spacing: 2px;
+    font-size: 1em;
+    color: rgba(255,255,255,0.98);
+}
+
+.name:hover{
+    color: rgb(255, 255, 255);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #088,
+    0 0 82px #088,
+    0 0 92px #088,
+    0 0 102px #088,
+    0 0 151px #088;
+}
+
+.genresContainer{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.genres { 
+    color: white;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.star 
+{
+    width: 15px;
+}
+
+.rating {
+    font-size: 15px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-shadow: 2px 2px 2px black;
+    margin: 0;
+}
+
+.containerStar{
+    display: flex;
+    flex: row;
+    justify-content: left;
+    letter-spacing: 2px;
+}
+

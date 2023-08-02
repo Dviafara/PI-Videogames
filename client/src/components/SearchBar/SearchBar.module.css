@@ -1,0 +1,57 @@
+.container {
+    display: flex;  
+    align-items: center;
+}
+
+.input::placeholder{
+    color:#fff;
+    text-align: center;
+}
+
+.input {
+    background: none;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);    
+    backdrop-filter: blur(7px);
+    text-align: center;
+    width: 190px;
+    height: 36px;
+    font-size: 15px;
+    color: rgba(17, 164, 233, 0.9);
+    letter-spacing: 2px;
+    
+}
+
+.input:hover::placeholder{
+    color: rgba(17, 164, 233, 0.9);
+}
+
+.input:hover{
+    background-color: rgba(148, 139, 233, 0.25);
+    border-color: rgba(17, 164, 233, 0.9);
+    filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
+    transition: all .3s ease; 
+}
+
+
+.buttons {
+    margin-left: 10px;
+    letter-spacing: 3px;
+    width: 140px;
+    height: 36px;
+    font-size: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    background: none;
+    color: white;
+    text-shadow: 0 0 3px #fff, 0 0 1px #fff, 0 0 7px #fff, 0 0 20px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 10px #000000, 0 0 40px #000000;
+
+}
+
+.buttons:hover{
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    text-shadow: 0 0 3px #000000, 0 0 1px #000000, 0 0 7px #000000, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 10px #ffffff, 0 0 40px #ffffff;
+    transition: 0.2s ease-in;
+}

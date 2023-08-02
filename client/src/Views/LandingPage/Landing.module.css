@@ -1,0 +1,62 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxButton {
+    animation: animation infinite ease-in-out 2900ms;
+}
+
+.button {
+    width: 550px;
+    height: 120px;
+    font-size: 70px;
+    font-family: "RetroGaming";
+    background: none;
+    color: #fff;
+    border: none;
+    letter-spacing: 8px;
+    animation: start infinite steps(1, end) 1800ms;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #088,
+    0 0 82px #088,
+    0 0 92px #088,
+    0 0 102px #088,
+    0 0 151px #088;
+}
+
+
+.button:hover{
+    cursor: pointer;
+}
+
+@keyframes start {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.09);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
